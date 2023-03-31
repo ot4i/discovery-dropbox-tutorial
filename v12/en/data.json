@@ -262,7 +262,7 @@
                                     "type": "ordered",
                                     "details": [                                      
                                         {
-										"details": "In order to reuse the completed application which is provided with this tutorial, you must configure your integration server with credentials for communicating with your Dropbox instance.  Launch a command console session, and run the following command to create these credentials:<br><code>mqsicredentials --work-dir &lt;YourToolkitWorkspace&gt;\\TEST_SERVER  --vault-key password123 --create --credential-type dropbox --credential-name CompletePolicyProjectDropbox_Dropbox1 --client-id &lt;YourDropboxClientId --client-secret &lt;YourDropboxClientSecret&gt; --access-token &lt;YourDropboxAccessToken&gt;</code>"
+										"details": "In order to reuse the completed application which is provided with this tutorial, you must configure your integration server with credentials for communicating with your Dropbox instance.  Launch a command console session, and run the following command to create these credentials:<br><code>mqsicredentials --work-dir &lt;YourToolkitWorkspace&gt;\\TEST_SERVER  --vault-key password123 --create --credential-type dropbox --credential-name CompletePolicyProjectDropbox_Dropbox1 --client-id &lt;YourDropboxClientId&gt; --client-secret &lt;YourDropboxClientSecret&gt; --access-token &lt;YourDropboxAccessToken&gt;</code>"
 										},
 										{	
                                         "details": "Back in the Toolkit, in the Integration Explorer view, right-click <code>TEST_SERVER</code> and select the option to Start."
