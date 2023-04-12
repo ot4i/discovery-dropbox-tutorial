@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "fileContent": {
+      "displayOrder": 2,
+      "title": "File content",
+      "description": "The content of the file that you want to work with",
+      "type": "string"
+    },
+    "contentType": {
+      "displayOrder": 19,
+      "title": "Content type",
+      "description": "Content type of the file",
+      "type": "string"
+    }
+  },
+  "title": "files",
+  "additionalProperties": false
+}

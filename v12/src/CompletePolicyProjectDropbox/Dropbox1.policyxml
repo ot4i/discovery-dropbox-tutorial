@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<policies>
-  <policy policyType="dropbox" policyName="Dropbox1" policyTemplate="online_v1_basic_oauth">
-    <credentialName>CompletePolicyProjectDropbox_Dropbox1</credentialName>
-    <applicationVersion>v1</applicationVersion>
-    <applicationType>online</applicationType>
-    <authenticationMethod>BASIC_OAUTH</authenticationMethod>
-  </policy>
-</policies>
+<?xml version="1.0" encoding="UTF-8"?><policies><policy policyName="Dropbox1" policyTemplate="online_v1_basic_oauth" policyType="dropbox"><applicationType>online</applicationType><applicationVersion>v1</applicationVersion><authenticationMethod>BASIC_OAUTH</authenticationMethod><contentApiUrl>https://content.dropboxapi.com/2/</contentApiUrl><apiUrl>https://api.dropboxapi.com/2/</apiUrl><isBusinessEndpoint/><credentialName>CompletePolicyProjectDropbox_Dropbox1</credentialName></policy></policies>

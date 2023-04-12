@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "path": {
+      "displayOrder": 1,
+      "title": "Path",
+      "description": "The location of the file or the ID of the file that you want to work with",
+      "type": "string"
+    },
+    "fileType": {
+      "displayOrder": 6,
+      "title": "File type",
+      "description": "Specifies whether the file contains text",
+      "enum": [
+        "Binary",
+        "Text"
+      ],
+      "type": "string"
+    }
+  },
+  "title": "files",
+  "required": [
+    "path",
+    "fileType"
+  ],
+  "additionalProperties": false,
+  "connectorName": "dropbox",
+  "interaction": "DOWNLOADFILE"
+}
